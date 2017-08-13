@@ -1,13 +1,27 @@
 {
   "name": "passport-jwtr",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./lib",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "natashkinsasha",
   "license": "ISC",
+  "keywords": [
+    "jwt",
+    "redis",
+    "passport"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Natashkinsasha/passport-jwtr"
+  },
+  "bugs":{
+    "url" : "https://github.com/Natashkinsasha/passport-jwtr/issues",
+    "email" : "natashkinsasga@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.12",
+    "npm": ">=1.4.28"
+  },
   "dependencies": {
     "jwt-redis": "^0.1.4",
     "passport-jwt": "^2.2.1",
