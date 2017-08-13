@@ -1,0 +1,16 @@
+{
+  "name": "passport-jwtr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jwt-redis": "^0.1.4",
+    "passport-jwt": "^2.2.1",
+    "passport-strategy": "^1.0.0"
+  }
+}
