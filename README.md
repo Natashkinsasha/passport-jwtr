@@ -1,6 +1,6 @@
 # jwtr-passport
 
-A [Passport](http://passportjs.org/) strategy for authenticating with a [JSON Web Token] (https://jwt.io/).
+A [Passport](http://passportjs.org/) strategy for authenticating with a [JSON Web Token](https://jwt.io/).
 
 This module lets you authenticate endpoints using a JSON web token. It is intended to be used to secure RESTful endpoints without sessions.
 
