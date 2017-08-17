@@ -14,9 +14,9 @@
     "type": "git",
     "url": "git://github.com/Natashkinsasha/passport-jwtr"
   },
-  "bugs":{
-    "url" : "https://github.com/Natashkinsasha/passport-jwtr/issues",
-    "email" : "natashkinsasga@gmail.com"
+  "bugs": {
+    "url": "https://github.com/Natashkinsasha/passport-jwtr/issues",
+    "email": "natashkinsasga@gmail.com"
   },
   "engines": {
     "node": ">=0.12",
@@ -26,5 +26,13 @@
     "jwt-redis": "^0.1.4",
     "passport-jwt": "^2.2.1",
     "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "dirty-chai": "^2.0.1",
+    "express": "^4.15.4",
+    "passport": "^0.4.0"
   }
 }
