@@ -58,6 +58,7 @@ describe('', function () {
         });
 
         app.use(function (err, req, res, next) {
+            console.log(err)
             return res.status(500).json(err);
         });
         const server = http.createServer(app);
@@ -122,7 +123,6 @@ describe('', function () {
                             .get('/')
                             .set('token', res.body)
                             .catch(function (res) {
-                                console.log(res)
                                 return;
                             })
                     })
