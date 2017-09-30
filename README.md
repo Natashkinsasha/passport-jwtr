@@ -25,8 +25,8 @@ This library is quite fresh, and maybe has bugs. Write me an **email** to *natas
 
 ```javascript
 
-var JwtrStrategy = require('passport-jwtt').Strategy,
-    ExtractJwt = require('passport-jwtt').ExtractJwt;
+var JwtrStrategy = require('passport-jwtr').Strategy,
+    ExtractJwt = require('passport-jwtr').ExtractJwt;
 var Redis = require('ioredis');
 var opts = {}
 opts.jwtFromRequest = ExtractJwt.fromAuthHeader();
