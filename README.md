@@ -1,4 +1,4 @@
-# jwtr-passport
+# passport-jwtr
 
 A [Passport](http://passportjs.org/) strategy for authenticating with a [JSON Web Token](https://jwt.io/).
 
@@ -25,8 +25,8 @@ This library is quite fresh, and maybe has bugs. Write me an **email** to *natas
 
 ```javascript
 
-var JwtrStrategy = require('passport-jwt').Strategy,
-    ExtractJwt = require('passport-jwt').ExtractJwt;
+var JwtrStrategy = require('passport-jwtt').Strategy,
+    ExtractJwt = require('passport-jwtt').ExtractJwt;
 var Redis = require('ioredis');
 var opts = {}
 opts.jwtFromRequest = ExtractJwt.fromAuthHeader();
@@ -40,7 +40,7 @@ passport.use(new JwtrStrategy(opts, function(jwt_payload, done) {
         if (user) {
             done(null, user);
         } else {
-            done(null, false);
+            done(null, false, 'User not found');
         }
     });
 }));
