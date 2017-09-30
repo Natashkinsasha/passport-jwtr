@@ -4,6 +4,19 @@ A [Passport](http://passportjs.org/) strategy for authenticating with a [JSON We
 
 This module lets you authenticate endpoints using a JSON web token. It is intended to be used to secure RESTful endpoints without sessions.
 
+
+# Installation
+
+Npm
+```javascript
+npm install jwtr-passport
+```
+
+Yarn
+```javascript
+yarn add jwtr-passport
+```
+
 # Support
 
 This library is quite fresh, and maybe has bugs. Write me an **email** to *natashkinsash@gmail.com* and I will fix the bug in a few working days.
