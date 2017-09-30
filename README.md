@@ -9,12 +9,12 @@ This module lets you authenticate endpoints using a JSON web token. It is intend
 
 Npm
 ```javascript
-npm install jwtr-passport
+npm install passport-jwtr
 ```
 
 Yarn
 ```javascript
-yarn add jwtr-passport
+yarn add passport-jwtr
 ```
 
 # Support
