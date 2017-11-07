@@ -1,6 +1,6 @@
 {
   "name": "passport-jwtr",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "",
   "main": "./lib",
   "author": "natashkinsasha",
@@ -23,7 +23,7 @@
     "npm": ">=1.4.28"
   },
   "dependencies": {
-    "jwt-redis": "^3.0.1",
+    "jwt-redis": "^3.1.0",
     "passport-jwt": "^2.2.1",
     "passport-strategy": "^1.0.0"
   },
